@@ -1,0 +1,18 @@
+Array Reverse Using an Extra Array (Non In-place):
+Create a new array of the same size as the original array.
+Copy elements from the original array to the new array in reverse order.
+Below is the implementation of the above approach:
+
+
+
+def reverse_array_extra_array(arr):
+    reversed_arr = arr[::-1]
+
+    # Print reversed array
+    print("Reversed Array:", end=" ")
+    for i in reversed_arr:
+        print(i, end=" ")
+
+# Example usage:
+original_arr = [1, 2, 3, 4, 5]
+reverse_array_extra_array(original_arr)
